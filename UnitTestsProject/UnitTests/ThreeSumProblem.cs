@@ -1,6 +1,6 @@
 ﻿namespace TestingProject
 {
-    public partial class Tests
+    public partial class ThreeSumProblemTests
     {
         // ThreeSumProblem
         [TestCase(new int[] { 0, 1, -1, -1, 2 }, ExpectedResult = "{ { 0, 1, -1 }, { -1, -1, 2 } }")]
