@@ -5,6 +5,6 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine(PilishStringsClass.PilishString("FORALOOP"));
+        Console.WriteLine(UlamSequenceClass.Ulam(9));
     }
 }
