@@ -1,10 +1,13 @@
-﻿using NUnit.Framework;
-using static System.Net.Mime.MediaTypeNames;
-
+﻿
 public class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine(UlamSequenceClass.Ulam(9));
+        foreach (long arg in MaxieAndMinnieClass.MaxMin(12340))
+        {
+            Console.WriteLine(arg);
+        }
+        
+        
     }
 }
